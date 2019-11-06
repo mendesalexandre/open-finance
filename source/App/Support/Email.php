@@ -1,13 +1,11 @@
 <?php 
-
 namespace Source\App;
 
-use Source\Database;
+use Source\App\Database;
 
 class Email {
 
     private $data;
-
 
     public function __construct()
     {
