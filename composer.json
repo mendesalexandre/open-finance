@@ -1,0 +1,8 @@
+{
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "~6.1",
+        "league/plates": "~4.0",
+        "phpoffice/phpword": "v0.16.*"
+    }
+}
