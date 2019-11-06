@@ -2,7 +2,6 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-
 $phpWord = new \PhpOffice\PhpWord\PhpWord();
 
 
@@ -36,7 +35,12 @@ $section->addText(
 $fontStyleName = 'oneUserDefinedStyle';
 $phpWord->addFontStyle(
     $fontStyleName,
-    array('name' => 'Tahoma', 'size' => 10, 'color' => '1B2232', 'bold' => true)
+    array(
+        'name' => 'Tahoma',
+        'size' => 10,
+        'color' => '1B2232',
+        'bold' => true
+        )
 );
 $section->addText(
     '"The greatest accomplishment is not in never falling, '
